@@ -27,7 +27,7 @@ function searchWeather() {
   }
 
   // fetch longitude and latitude values for that city
-  var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q='+cityName+'&appid=8ff30b172686b9cdb2a41bc28d4d766d';
+  var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q='+cityName+'&appid=8ff30b172686b9cdb2a41bc28d4d766d';
 
   fetch(apiUrl)
     .then(function (response) {
