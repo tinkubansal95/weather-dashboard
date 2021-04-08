@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Git it Done</title>
+</head>
+
+<body class="flex-column min-100-vh">
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main class="flex-row justify-space-between">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-header">
+                      <h5 class="card-title">Search for a city:</h5>
+                      <div class="input-group">
+                          <div class="form-outline">
+                            <input type="search" id="getCity" class="form-control" />
+                          </div>
+                          <button type="button" class="btn btn-primary searchWeather">
+                            <i class="fas fa-search"></i>
+                          </button>
+                      </div>
+                  </div>
+                  <ul class="list-group list-group-flush getUserSearchHistory">
+                  </ul>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="card">
+                    <div class="card-body">
+                      <h2 class="card-title currentDate"></h2>
+                      <br>
+                      <p class="card-text currentMaxTemp"></p>
+                      <p class="card-text currentMinTemp"></p>
+                      <p class="card-text currentHumidity">Humidity: </p>
+                      <p class="card-text currentWindspeed">Windspeed: </p>
+                      <p class="card-text ">UV Index:  <span class="currentUVIndex"></span></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">5-Day Forecast:</h4>
+                        <div class="card-deck">
+                            <div class="card text-white bg-primary mb-3">
+                                <div class="card-body dayOne">
+                                  <h5 class="card-title">6/4/2021</h5>
+                                  <p></p>
+                                  <br>
+                                  <p class="card-text">Max. Temprature: </p>
+                                  <p class="card-text">Min. Temprature: </p>
+                                  <p class="card-text">Humidity: </p>
+                                </div>
+                            </div>
+                            <div class="card text-white bg-primary mb-3">
+                              <div class="card-body dayTwo">
+                                <h5 class="card-title">6/4/2021</h5>
+                                <p></p>
+                                <br>
+                                <p class="card-text">Max. Temprature: </p>
+                                <p class="card-text">Min. Temprature: </p>
+                                <p class="card-text">Humidity: </p>
+                              </div>
+                          </div>
+                          <div class="card text-white bg-primary mb-3">
+                            <div class="card-body dayThree">
+                              <h5 class="card-title">6/4/2021</h5>
+                              <p></p>
+                              <br>
+                              <p class="card-text">Max. Temprature: </p>
+                              <p class="card-text">Min. Temprature: </p>
+                              <p class="card-text">Humidity: </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-primary mb-3">
+                          <div class="card-body dayFour">
+                            <h5 class="card-title">6/4/2021</h5>
+                            <p></p>
+                            <br>
+                            <p class="card-text">Max. Temprature: </p>
+                            <p class="card-text">Min. Temprature: </p>
+                            <p class="card-text">Humidity: </p>
+                          </div>
+                      </div>
+                      <div class="card text-white bg-primary mb-3">
+                        <div class="card-body dayFive">
+                          <h5 class="card-title">6/4/2021</h5>
+                          <p></p>
+                          <br>
+                          <p class="card-text">Max. Temprature: </p>
+                          <p class="card-text">Min. Temprature: </p>
+                          <p class="card-text">Humidity: </p>
+                        </div>
+                    </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+          </div>    
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+
+</html>

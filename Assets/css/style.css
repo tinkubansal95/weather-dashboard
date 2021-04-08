@@ -1,0 +1,38 @@
+:root {
+    --primary: white;
+    --secondary: #9caea9;
+    --tertiary: #788585;
+    --light-dark: #6f6866;
+    --dark: #38302e;
+    --border-radius: .3rem;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  header{
+    padding: 2% 2%;
+    background-color: var(--dark);
+    color: var(--primary);
+  }
+  h1 {
+    font-weight: 700;
+    margin: 0;
+    color: var(--white);
+    text-align: center;
+  }
+  p{
+    line-height: normal;
+  }
+  
+  button.cityBtn{
+    border:  none;
+    width: 100%;
+    min-height: 35px;
+  }
+
+  span.currentUVIndex{
+    color: white;
+  }
