@@ -30,5 +30,5 @@
   }
 
   span.currentUVIndex{
-    color: white;
+    color: var(--primary);
   }
