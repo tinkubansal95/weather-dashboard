@@ -6,7 +6,7 @@
 
 ## Link of the website :
 
-```https://tinkubansal95.github.io/weather-dashboard/```
+https://tinkubansal95.github.io/weather-dashboard/
 
 ## Screenshot of the website
 
