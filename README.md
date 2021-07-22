@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [Link of the website](#link-of-the-website)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Screenshot of the website](#screenshot-of-the-website)
 - [Got Any Questions](#got-any-questions)
